@@ -13,11 +13,5 @@
   spring.datasource.username=YOUR_USERNAME
   spring.datasource.password=YOUR_PASSWORD
 ```
-4. Run application
-
-> **Anything else?**
-
-When your application is running you can insert test data with migration.
-You need to:
-* Go to resources -> db.migration
-* Open V2__insertTestDataIntoDb and run this sql
+4. Run application.
+5. When app will start it will create needable tables and fill them with test data.
